@@ -23,11 +23,6 @@ Built on a modern Node+Express stack. Further details are listed in the [project
 - Search for Campground
 - Map view fo campsites
 
-**Challenges**
-
-- one
-- two
-
 <br/>
 
 # Ind3x
