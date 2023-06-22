@@ -21,7 +21,7 @@ Built on a modern Node+Express stack. Further details are listed in the [project
 - Leave a comment
 - Leave a review (stars)
 - Search for Campground
-- Map view fo campsites
+- Map view of campsites
 
 <br/>
 
