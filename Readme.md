@@ -55,7 +55,7 @@ Ind3x company website
 
 - Production: [https://lelo.jewelry/](https://www.lelo.jewelry/)
 
-![index, my site](./images/images/lelo.png)
+![lelo, my site](./images/lelo.png)
 
 **Description**
 
