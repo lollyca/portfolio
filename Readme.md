@@ -55,7 +55,7 @@ Ind3x company website
 
 - Production: [https://lelo.jewelry/](https://www.lelo.jewelry/)
 
-![index, my site](./images/ind3x.gif)
+![index, my site](./images/images/Screen Shot 2023-06-22 at 4.51.30 PM.png)
 
 **Description**
 
