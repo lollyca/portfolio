@@ -27,7 +27,7 @@ Built on a modern Node+Express stack. Further details are listed in the [project
 
 # Ind3x
 
-- Production: [https://index.games/](https://index.games)
+- Production: [https://index.games/](https://www.ind3x.games/)
 
 ![index, my site](./images/ind3x.gif)
 
