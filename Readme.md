@@ -14,7 +14,7 @@ Built on a modern Node+Express stack. Further details are listed in the [project
 **Features**
 
 - User registration
-- User authentification
+- User authentication
 - Create new campground site
 - Edit Campground created
 - Upload images
@@ -63,13 +63,12 @@ LELO Jewelry website is a virtual web sorte where clients can browse and shop Au
 
 **Features**
 For the user:
-- Find Brazilian Jewelry: earings, necklaces, bracelets
+- Find Brazilian Jewelry: earrings, necklaces, bracelets
 - Client Cart
 - User account
 - Payment System
 - Orders management
 - Information about the company
-- 
 For the company:
 - Store inventory control
 - Add new products
