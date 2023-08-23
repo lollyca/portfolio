@@ -1,7 +1,7 @@
 # YelpCamp
 
 - Github: [lollyca/YelpCamp](https://github.com/lollyca/YelpCamp)
-- Production: [https://thawing-coast-79352.herokuapp.com](https://thawing-coast-79352.herokuapp.com)
+- Production: [https://yelpcamp.up.railway.app/](https://yelpcamp-production-0134.up.railway.app/)
 
 ![yelpcamp, my site](./images/yelpcamp.png)
 
