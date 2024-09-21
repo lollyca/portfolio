@@ -1,8 +1,7 @@
 # YelpCamp
 
 - Github: [lollyca/YelpCamp](https://github.com/lollyca/YelpCamp)
-- Production: [[https://yelpcamp.up.railway.app/](https://yelp-camp-gamma-sandy.vercel.app/)]([https://yelpcamp-production-0134.up.railway.app/](https://yelp-camp-gamma-sandy.vercel.app/))
-
+- Production: [https://yelp-camp-gamma-sandy.vercel.app/](https://yelp-camp-gamma-sandy.vercel.app/)
 ![yelpcamp, my site](./images/yelpcamp.png)
 
 **Description**
