@@ -1,3 +1,29 @@
+# Bible Search
+
+- Github: [lollyca/bible-search](https://github.com/lollyca/bible-search)
+- Production: [https://bible-search-iota.vercel.app/](https://bible-search-iota.vercel.app/)
+![yelpcamp, my site](./images/bible-search.png)
+
+**Description**
+
+It is a search tool where user can find bible verses related to a specifc keyword. User can also filter by book and change between bible versions.
+
+**Features**
+- Find bible verses via keyword search
+- Change bible version
+- Filter by bible book
+
+**Tech used**
+- React
+- Next.js
+- Bootstrap
+- Third party APIs
+
+**Challenges**
+- Third party documentation
+
+<br/>
+
 # YelpCamp
 
 - Github: [lollyca/YelpCamp](https://github.com/lollyca/YelpCamp)
@@ -11,7 +37,6 @@ It is very similar to Yelp but it helps campers to find new campground to explor
 Built on a modern Node+Express stack. Further details are listed in the [project Readme](https://github.com/lollyca/YelpCamp#built-with)
 
 **Features**
-
 - User registration
 - User authentication
 - Create new campground site
