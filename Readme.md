@@ -80,7 +80,6 @@ HTML | Javascript | CSS | TypeScript
 - Bun
 
 ### Challenges
-<br/>
 While building the `PixelGrid` component, I ran into several tricky parts that taught me a lot about working with the DOM, React state, and performance optimizations.
 
 #### 1. Making the Grid Responsive
@@ -134,7 +133,6 @@ HTML | Javascript | CSS | TypeScript
 - Third party APIs
 
 ### Challenges
-<br/>
 Overall, these challenges helped me learn more about how to integrate third-party APIs, manage URL-based state, and make apps more user-friendly and shareable:
 
 #### 1. Figuring Out the Third-Party API
