@@ -4,7 +4,7 @@
 
 <div style="display: flex; gap: 10px;">
   
-  <img src="./images/step3.png" alt="Step 1" width="300" />
+  <img src="./images/step1.png" alt="Step 1" width="300" />
   <img src="./images/step3.png" alt="Step 3" width="300" />
   <img src="./images/step4.png" alt="Step 4" width="300" />
   <img src="./images/step5.png" alt="Step 5" width="300" />
