@@ -11,13 +11,13 @@
   
 </div>
 
-**Description**
+### Description
 
 This web app allows users to input their website's sitemap, fetch all discoverable sub-sitemaps, select the ones they want to scan, and scrape product pages for missing information. The scraping is done headlessly using Puppeteer and updates the UI with real-time progress using Server-Sent Events (SSE).
 
 Once scraping is complete, a CSV file is generated and automatically downloaded with a list of product pages missing information (title, price, image, etc).
 
-**Features**
+### Features
 - Sitemap Fetching — Input sitemap URL to automatically discover sub-sitemaps
 - Sub-sitemap Selection — Pick only the sections you want to scrape
 - Headless Scraping — Uses Puppeteer to render pages like a real browser
@@ -26,18 +26,18 @@ Once scraping is complete, a CSV file is generated and automatically downloaded 
 - Reset & Cancel Controls — Full control of scraping flow for better UX
 - Production-Ready — Fully SSR with Bun + Next.js for fast deploys
 
-**Languages**
+### Languages
 
 HTML | Javascript | CSS | TypeScript
 
-**Tech used**
+### Tech used
 - React
 - Next.js
 - Tailwind
 - Server-Sent Events (SSE)
 - Puppeteer
 
-**Challenges**
+### Challenges
 #### 1. Handling Dynamic Content
 Most product images are loaded client-side with JavaScript. Traditional HTTP-based scrapers (like `axios` + `cheerio`) wouldn’t work. Puppeteer was used to fully render each page like a real browser.
 
@@ -61,25 +61,25 @@ Vercel’s serverless functions don’t support long-running or headless browser
 
 ![index, my site](./images/ind3xhome.png)
 
-**Description**
+### Description
 
 Built the company website that allows users to browse Ind3x games and find the best platform to download each title. The site loads in under 2 seconds and scores 100% on Lighthouse Accessibility and SEO.
 
-**Features**
+### Features
 - Find games developed by Ind3x
 - Information about the company
 
-**Languages**
+### Languages
 
 HTML | Javascript | CSS | TypeScript
 
-**Tech used**
+### Tech used
 - React
 - Next.js
 - Tailwind
 - Bun
 
-**Challenges**
+### Challenges
 <br/>
 While building the `PixelGrid` component, I ran into several tricky parts that taught me a lot about working with the DOM, React state, and performance optimizations.
 
@@ -114,27 +114,34 @@ Since the grid has a lot of pixels, I didn’t want React to re-render them all 
 - Production: [https://verse-search.vercel.app/](https://verse-search.vercel.app/)
 ![yelpcamp, my site](./images/bible-search.png)
 
-**Description**
+### Description
 
 It is a search tool where user can find bible verses related to a specifc keyword. User can also filter by book and change between bible versions.
 
-**Features**
+### Features
 - Find bible verses via keyword search
 - Change bible version
 - Filter by bible book
 
-**Languages**
+### Languages
 
 HTML | Javascript | CSS | TypeScript
 
-**Tech used**
+### Tech used
 - React
 - Next.js
 - Bootstrap
 - Third party APIs
 
-**Challenges**
-- Third party documentation
+### Challenges
+<br/>
+Overall, these challenges helped me learn more about how to integrate third-party APIs, manage URL-based state, and make apps more user-friendly and shareable:
+
+#### 1. Figuring Out the Third-Party API
+One of the main challenges was working with the external Bible API. The documentation was either missing or not very clear, especially when it came to using the keyword search. It took some trial and error to figure out the correct query parameters and how to structure the request to get back the results I wanted.
+
+#### 2. Making Searches Shareable
+Another tricky part was updating the URL with the user's keyword so they could copy the link and share it with friends. Since the app uses Next.js and client-side routing, I had to learn how to work with query parameters in a way that kept the search state in sync with the URL. This was a new concept for me, and it took some time to get right.
 
 <br/>
 
@@ -144,11 +151,11 @@ HTML | Javascript | CSS | TypeScript
 
 ![lelo, my site](./images/lelo.png)
 
-**Description**
+### Description
 
 LELO Jewelry website is a virtual web sorte where clients can browse and shop Authentic Brazilian Jewelry. Includes a admin dashboard where manager can do store inventory control, collect sales information, check payments and have client information for future follow up.
 
-**Features**
+### Features
 For the user:
 - Find Brazilian Jewelry: earrings, necklaces, bracelets
 - Client Cart
@@ -163,11 +170,11 @@ For the company:
 - Payment System
 - Orders management
 
-**Languages**
+### Languages
 
 HTML | Javascript | CSS | TypeScript
 
-**Tech used**
+### Tech used
 - React
 - Next.js
 - Bootstrap
@@ -175,7 +182,7 @@ HTML | Javascript | CSS | TypeScript
 - Illustrator (logo and graphics)
 - Lightroom (Adobe)
 
-**Challenges**
+### Challenges
 - Deployment process
 
 <br/>
@@ -186,13 +193,13 @@ HTML | Javascript | CSS | TypeScript
 - Production: [https://yelp-camp-gamma-sandy.vercel.app/](https://yelp-camp-gamma-sandy.vercel.app/)
 ![yelpcamp, my site](./images/yelpcamp.png)
 
-**Description**
+### Description
 
 It is very similar to Yelp but it helps campers to find new campground to explore. 
 
 Built on Node+Express stack. Further details are listed in the [project Readme](https://github.com/lollyca/YelpCamp#built-with)
 
-**Features**
+### Features
 - User registration
 - User authentication
 - Create new campground site
@@ -203,16 +210,16 @@ Built on Node+Express stack. Further details are listed in the [project Readme](
 - Search for Campground
 - Map view of campsites
 
-**Languages**
+### Languages
 
 HTML | Javascript | CSS
 
-**Tech used**
+### Tech used
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
 - Bootstrap
 
-**Challenges**
+### Challenges
 - It was my first fully developed Full Stack project :)
