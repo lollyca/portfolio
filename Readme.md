@@ -63,7 +63,7 @@ Vercel’s serverless functions don’t support long-running or headless browser
 
 **Description**
 
-Ind3x company website
+Built the company website that allows users to browse Ind3x games and find the best platform to download each title. The site loads in under 2 seconds and scores 100% on Lighthouse Accessibility and SEO.
 
 **Features**
 - Find games developed by Ind3x
@@ -76,12 +76,35 @@ HTML | Javascript | CSS | TypeScript
 **Tech used**
 - React
 - Next.js
-- Bootstrap
-- Feather Icons
-- Illustrator (logo)
+- Tailwind
+- Bun
 
 **Challenges**
-- Grid component
+<br/>
+While building the `PixelGrid` component, I ran into several tricky parts that taught me a lot about working with the DOM, React state, and performance optimizations.
+
+#### 1. Making the Grid Responsive
+The grid had to fit nicely inside whatever space it's given, no matter the screen size. I had to:
+- Figure out how many pixels would fit by dividing the container's width and height by the pixel size.
+- Add a debounced resize listener so the grid doesn’t recalculate too often when resizing.
+
+#### 2. Centering the Image in the Grid
+I needed to center the image inside the pixel grid, which meant:
+- Adjusting every pixel’s position to line up with the image’s center.
+- Skipping pixels that would go out of bounds when the image didn’t fully fit in the grid.
+
+#### 3. Showing the Right Colors
+Every grid pixel shows a color from either the "front" or "back" image. To get the right color:
+- I calculated the x and y position in the image based on the pixel’s index in the grid.
+- If the position was outside the image, I showed a background color and marked it as a “dead” pixel.
+
+#### 4. Handling Touch Devices
+Touchscreens don’t fire `mouseenter` or `mouseover` like a mouse does. To support touch interfaces, custom logic was needed to simulate hover effects and this was done by:
+- I listened for `touchmove` events.
+- Then I used `elementFromPoint()` to figure out which pixel was being touched and manually fired mouse events.
+
+#### 5. Avoiding Unnecessary Renders
+Since the grid has a lot of pixels, I didn’t want React to re-render them all the time. To avoid unnecessary re-renders, pixel data is generated using `useMemo` but I had to be careful with how I updated the pixel array to avoid bugs from mutating state directly.
 
 <br/>
 
