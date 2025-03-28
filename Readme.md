@@ -1,6 +1,6 @@
 # Product Issue Finder
 
-- Production: coming soon
+- Github: [lollyca/product-issue-finder](https://github.com/lollyca/product-card-finder)
 
 <div style="display: flex; gap: 10px;">
   
